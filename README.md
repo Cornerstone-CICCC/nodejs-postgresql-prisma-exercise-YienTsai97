@@ -12,7 +12,7 @@
     **Full SQL commands:**
 
     ```bash
-    CREATE USER shopowner WITH PASS '12345';
+    CREATE USER shopowner WITH PASSWORD '12345';
     CREATE DATABASE awesome_shop;
     GRANT ALL PRIVILEGES ON DATABASE awesome_shop TO shopowner;
     ALTER DATABASE awesome_shop OWNER TO shopowner;
